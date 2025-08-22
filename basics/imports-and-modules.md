@@ -23,7 +23,7 @@ A differenza di altri linguaggi, in D le istruzioni `import` non devono necessar
 void main()
 {
     import std.stdio;
-    // in alternativa: import std.stdio : writeln;
+    // o: import std.stdio : writeln;
     writeln("Ciao Mondo!");
 }
 ```
