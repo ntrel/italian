@@ -100,7 +100,7 @@ struct Vector3 {
 
     double length() const {
         import std.math : sqrt;
-        // DA FARE: implementare la lunghezza di Vector3
+        // DA FARE: implementare la lunghezza
         return 0.0;
     }
 
