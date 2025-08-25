@@ -106,7 +106,8 @@ struct Vector3 {
 
     // rhs verrà copiato
     double dot(Vector3 rhs) const {
-        // DA FARE: implementare il prodotto scalare
+        // DA FARE: implementare il prodotto
+        // scalare
         return 0.0;
     }
 }
@@ -123,7 +124,8 @@ void main() {
     assert(vec1.length == 10);
     assert(vec2.length == 20);
 
-    // Testa la funzionalità del prodotto scalare
+    // Testa la funzionalità del prodotto
+    // scalare
     assert(vec1.dot(vec2) == 0);
 
     // 1 * 1 + 2 * 1 + 3 * 1

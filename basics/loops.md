@@ -79,7 +79,8 @@ double average(int[] array)
     double accumulator = 0.0;
     while (array.length)
     {
-        // questo potrebbe essere fatto anche con .front
+        // questo potrebbe essere fatto anche
+        // con .front
         // con import std.array : front;
         accumulator += array[0];
         array = array[1 .. $];
