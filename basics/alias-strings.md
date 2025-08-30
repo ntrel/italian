@@ -109,9 +109,9 @@ import std.uni : byGrapheme;
 import std.string : format;
 
 void main() {
-    // format genera una stringa usando una sintassi
-    // simile a printf. D permette la gestione nativa
-    // delle stringhe UTF!
+    // format genera una stringa usando una
+    // sintassi simile a printf. D permette la
+    // gestione nativa delle stringhe UTF!
     string str = format("%s %s", "Hellö",
         "Wörld");
     writeln("My string: ", str);
@@ -123,9 +123,9 @@ void main() {
         ~ " of string: ",
         str.byGrapheme.walkLength);
 
-    // Le stringhe sono semplicemente array normali, quindi
-    // qualsiasi operazione che funziona sugli array
-    // funziona anche qui!
+    // Le stringhe sono semplicemente array
+    // normali, quindi qualsiasi operazione che
+    // funziona sugli array funziona anche qui!
     import std.array : replace;
     writeln(replace(str, "lö", "lo"));
     import std.algorithm : endsWith;

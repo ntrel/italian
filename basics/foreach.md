@@ -93,7 +93,8 @@ void main() {
             total += e;
 
         auto avg = total / row.length;
-        writefln("MEDIA [riga=%d]: %.2f", i, avg);
+        writefln("MEDIA [riga=%d]: %.2f", i,
+            avg);
     }
 }
 ```

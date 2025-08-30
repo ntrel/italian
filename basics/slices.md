@@ -59,10 +59,12 @@ void main()
     writeln("Escludi i primi due elementi: ",
         test[2 .. $]);
 
-    writeln("Le slice sono viste sulla memoria:");
+    writeln("Le slice sono viste sulla "
+        ~ "memoria:");
     auto test2 = test;
     auto subView = test[3 .. $];
-    test[] += 1; // incrementa ogni elemento di 1
+    // incrementa ogni elemento di 1
+    test[] += 1;
     test.writeln;
     test2.writeln;
     subView.writeln;

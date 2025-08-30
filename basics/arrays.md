@@ -98,7 +98,8 @@ e il carattere successivo dopo z è a.
 
 Parametri:
     input = array da cifrare
-    shift = numero di posizioni di spostamento per ogni carattere
+    shift = numero di posizioni di spostamento
+            per ogni carattere
 Ritorna:
     Array di caratteri cifrato
 */

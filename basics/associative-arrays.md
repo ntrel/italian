@@ -69,15 +69,16 @@ void main()
     // restituiscono range pigri e iterabili
     writeln("# Words: ", words.byValue.sum);
 
-    // Un nuovo array associativo può essere creato
-    // con `assocArray` passando un
+    // Un nuovo array associativo può essere
+    // creato con `assocArray` passando un
     // range di tuple chiave/valore
     auto array = ['a', 'a', 'a', 'b', 'b',
                   'c', 'd', 'e', 'e'];
 
-    // `.group` raggruppa elementi consecutivi equivalenti
-    // in una singola tupla contenente
-    // l'elemento e il numero delle sue ripetizioni
+    // `.group` raggruppa elementi consecutivi
+    // equivalenti in una singola tupla
+    // contenente l'elemento e il numero delle
+    // sue ripetizioni
     auto keyValue = array.group;
     writeln("Key/Value range: ", keyValue);
     writeln("Associative array: ",
